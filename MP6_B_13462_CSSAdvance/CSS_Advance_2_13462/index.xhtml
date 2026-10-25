@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Formulir Pendaftaran Workshop</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Formulir Pendaftaran Workshop</h1>
+        <p class="subtitle">Amankan kursi Anda dengan mengisi data kehadiran berikut.</p>
+
+        <form action="" method="post">
+            <table class="form-table">
+                <tr>
+                    <td class="label-cell"><label for="nama"><strong>Nama Lengkap Peserta</strong></label></td>
+                    <td><input type="text" id="nama" name="nama" class="input-text" /></td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="email"><strong>Alamat Email Aktif</strong></label></td>
+                    <td><input type="text" id="email" name="email" class="input-text" /></td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="instansi"><strong>Asal Kampus / Instansi</strong></label></td>
+                    <td><input type="text" id="instansi" name="instansi" class="input-text" /></td>
+                </tr>
+                <tr>
+                    <td class="label-cell"><label for="sesi"><strong>Pilihan Sesi Kehadiran</strong></label></td>
+                    <td>
+                        <select id="sesi" name="sesi" class="input-select">
+                            <option>Sesi Pagi (08:00 - 12:00)</option>
+                            <option>Sesi Siang (13:00 - 17:00)</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-cell top-align"><strong>Materi yang Diminati</strong></td>
+                    <td>
+                        <div class="checkbox-section">
+                            <label class="check-label"><input type="checkbox" name="materi" value="UIUX" /> UI/UX Design</label>
+                            <label class="check-label"><input type="checkbox" name="materi" value="WebDev" /> Web Development</label>
+                            <label class="check-label"><input type="checkbox" name="materi" value="Data" /> Data Science</label>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="label-cell top-align"><label for="harapan"><strong>Ekspektasi Pembelajaran</strong></label></td>
+                    <td><textarea id="harapan" name="harapan" rows="5" class="input-textarea"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="submit-cell">
+                        <input type="submit" name="pesan" value="Pesan Tiket Sekarang" class="btn-submit" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

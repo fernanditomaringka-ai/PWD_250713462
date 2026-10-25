@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 700px;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #0056b3;
+}
+
+h1 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.form-table td {
+    padding: 12px 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.label-cell {
+    width: 35%;
+    color: #444;
+}
+
+.top-align {
+    vertical-align: top;
+    padding-top: 15px;
+}
+
+.input-text, .input-select, .input-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+.input-text:focus, .input-select:focus, .input-textarea:focus {
+    border-color: #0056b3;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.2);
+}
+
+.radio-label, .check-label {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.checkbox-section {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.input-file {
+    padding: 5px 0;
+}
+
+.submit-cell {
+    text-align: center;
+    padding-top: 25px !important;
+    border-bottom: none !important;
+}
+
+.btn-submit {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #004494;
+}
